@@ -2,7 +2,7 @@
 
 ### ✅ 使用方法：
 
-#### molardata_test.js
+#### 1.molardata_test.js
 1. 打开你的目标网站（包含`<textarea class="n-input__textarea-el">`的页面）。
 
 2. 按下 F12 打开 开发者工具。
@@ -14,8 +14,12 @@
 5. 会弹出一个新窗口，自动显示你输入框内的 LaTeX 渲染效果。
 
 适用于质检该标注平台：app.molardata.com
+渲染前在前后加上$
+#### 2.molardata_show.js
 
-#### lableling_test.js
+适用于实时渲染该标注平台：app.molardata.com 
+渲染前不在前后加上$
+#### 3.lableling_test.js
 1. 打开你的目标网站（包含类名为`.textarea-outline.textareaContainer___bERey`的页面）。
 
 2. 按下 F12 打开 开发者工具。
